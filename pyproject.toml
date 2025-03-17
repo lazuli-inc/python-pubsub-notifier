@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pubsub-notifier"
+version = "0.0.1"
+description = "Python client for publishing notification messages to GCP Pub/Sub"
+readme = "README.md"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "google-cloud-pubsub>=2.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/pubsub-notifier"
+"Bug Tracker" = "https://github.com/yourusername/pubsub-notifier/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "isort>=5.10.0",
+    "flake8>=5.0.0",
+]
