@@ -10,7 +10,7 @@ A client for sending notification messages to Google Cloud Pub/Sub topics
 
 ```toml
 [tool.poetry.dependencies]
-pubsub-notifier = {git = "https://github.com/yourusername/pubsub-notifier.git", rev = "main"}
+pubsub-notifier = {git = "https://github.com/lazuli-inc/python-pubsub-notifier.git", rev = "main"}
 ```
 
 ## Usage
